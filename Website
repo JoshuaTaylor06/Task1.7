@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+</head>
+<body>
+
+<header>
+    <h1>My First Web Page</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#external-links">External Links</a>
+</nav>
+
+<div>
+    <h2 id="about">About This Page</h2>
+    <p>This is my first web page, you will find an image below in the gallery section.</p>
+
+    <h2 id="gallery">Gallery</h2>
+    <p>Below is an image of the University of Strathclyde logo:</p>
+    <img src="https://images.unsplash.com/photo-1557902391-70d0a4baf30e" alt="Library with Books at University of Strathclyde" />
+
+    <h2 id="external-links">External Links</h2>
+    <p>These are the websites that I used to help myself create this website!</p>
+    <p>For more information, you can visit:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+        <li><a href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">Codecademy</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
